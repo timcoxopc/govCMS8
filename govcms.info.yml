@@ -25,7 +25,6 @@ dependencies:
   - image
   - inline_form_errors
   - layout_discovery
-  - media_library
   - menu_ui
   - node
   - options
@@ -80,6 +79,9 @@ dependencies:
   - govcms_foi
   - govcms_news_and_media
   - govcms_standard_page
+
+  # Drupal Core modules that need to be installed after govCMS core modules
+  - media_library
 
 dependencies_optional:
   - govcms8_default_content
